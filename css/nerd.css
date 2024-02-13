@@ -1,0 +1,22 @@
+#chartContainer {
+  width: 100%;
+  height: 400px;
+}
+
+/* Custom CSS */
+@media (min-width: 992px) {
+  .custom-img {
+    width: 1024px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center -290px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 991px) {
+  .custom-img {
+    width: 100%;
+    height: auto;
+  }
+}

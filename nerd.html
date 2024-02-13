@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Elvis is in the lab</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Prism -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/nerd.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Elvis Silva</span>
+        <span class="d-none d-lg-block"
+          ><img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="assets/img/profile.jpg"
+            alt="Profile photo of Elvis Vidal da Silva"
+        /></span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#about">
+              <i class="fa-solid fa-house"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#algorightms"
+              >Algorightms</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+      <!-- Algorightms, Big O -->
+      <section class="resume-section" id="algorightms">
+        <div class="resume-section-content">
+          <!-- Algorithm -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h1 class="mb-0">Algorithms</h1>
+              <img
+                src="assets/img/Kids_playing_RPG.webp"
+                class="img-fluid mb-3 custom-img"
+                alt="3 kids playing RPG."
+              />
+              <p>
+                Alright, imagine you're playing a new RPG game and you're trying
+                to figure out the most efficient way to level up your character.
+                You could just wander around fighting low-level monsters
+                randomly, but it's not very efficient, right? That's where
+                algorithms come in. In programming, an algorithm is like a
+                recipe or a step-by-step instruction guide to solve a problem or
+                perform a task, just like a strategy guide for your game.
+              </p>
+              <p>
+                Now, if you have different strategy guides (algorithms), you'd
+                want to compare them to find out which one helps you level up
+                the fastest, wouldn't you? This is why we compare algorithms -
+                to find the most efficient one, just like you'd find the best
+                gaming strategy.
+              </p>
+            </div>
+          </div>
+
+          <!-- Constant Time O(1) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h2 class="mb-0">
+                Big
+                <span class="text-primary">O</span>
+              </h2>
+
+              <p>
+                Big O is like the game's difficulty rating for each strategy; it
+                tells you how hard an algorithm has to work as things get more
+                complex. It's important to understand this before diving into
+                data structures (which are like the different types of gear you
+                have - inventory, weapons, spells, etc.), because you'll want to
+                use the right gear (data structure) for the right situation to
+                keep your game (program) running smoothly.
+              </p>
+
+              <p>Now, let's break down those Big O terms:</p>
+            </div>
+          </div>
+
+          <!-- Constant Time O(1) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Constant Time <span class="text-primary">O(1)</span>
+              </h3>
+              <p>
+                This is like having a teleport spell that instantly takes you to
+                the boss, no matter where you are. The operation takes the same
+                amount of time, regardless of how much data you have.
+              </p>
+              <p>
+                In programming, this is like accessing an array element directly
+                with its index. No matter how large the array, the time to
+                access the data is the same.
+              </p>
+
+              <pre><code class="language-javascript">
+                /**
+                * Retrieves the first element of an array
+                * @param {array} array
+                * @example
+                * getFirstElement([8, 9, 6]) // => 8
+                */
+                function getFirstElement(array) {
+                  return array[0];
+                }
+                </code></pre>
+            </div>
+          </div>
+
+          <!-- Logarithmic Time O(log n) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Logarithmic Time <span class="text-primary">O(log n)</span>
+              </h3>
+              <p>
+                Imagine you're looking for a page in a magical book that opens
+                to the correct page every time you guess higher or lower. Each
+                guess cuts the number of pages you have to search through in
+                half. That's how a logarithmic algorithm gets quicker, even if
+                the book (data) gets bigger.
+              </p>
+              <p>
+                A real-world example is a binary search, where you repeatedly
+                divide the dataset in half until you find your target.
+              </p>
+              <pre><code class="language-javascript">
+                /**
+                * Performs a binary search on a sorted array
+                * @param {array} sortedArray
+                * @param {number} target
+                * @example
+                * binarySearch([1, 2, 3, 4, 5], 3) // => 2
+                */
+                function binarySearch(sortedArray, target) {
+                  let left = 0;
+                  let right = sortedArray.length - 1;
+                  
+                  while (left &lt;= right) {
+                    const mid = Math.floor((left + right) / 2);
+                    if (sortedArray[mid] === target) return mid;
+                    else if (sortedArray[mid] &lt; target) left = mid + 1;
+                    else right = mid - 1;
+                  }
+                  
+                  return -1; // Target not found
+                }
+             </code></pre>
+            </div>
+          </div>
+
+          <!-- Linear Time O(n) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Linear Time <span class="text-primary">O(n)</span>
+              </h3>
+              <p>
+                This is like having to walk across every level of a dungeon to
+                reach the boss. The more levels (data) there are, the longer it
+                takes, one step after another.
+              </p>
+              <p>
+                In coding, it's like scanning through an array to find a
+                specific value. You might have to check each element, so the
+                time increases linearly with the amount of data.
+              </p>
+              <pre><code class="language-javascript">
+                /**
+                * Checks if an array contains a value
+                * @param {array} array
+                * @param {number} value
+                * @example
+                * containsValue([1, 2, 3, 4, 5], 3) // => true
+                * containsValue([1, 2, 3, 4, 5], 6) // => false
+                */
+                function containsValue(array, value) {
+                  for (let i = 0; i &lt; array.length; i++) {
+                    if (array[i] === value) return true;
+                  }
+                  return false;
+                }
+              </code></pre>
+            </div>
+          </div>
+
+          <!-- Linearithmic Time O(n log n) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Linearithmic Time <span class="text-primary">O(n log n)</span>
+              </h3>
+              <p>
+                Think of this as organizing your inventory. If you have more
+                items, it takes longer, but you use a smart method like the
+                magical book to sort them faster than if you did it item by
+                item.
+              </p>
+              <p>
+                Sorting algorithms like mergesort and quicksort fall into this
+                category, where they efficiently organize data faster than
+                simple linear methods but still take more time as the data
+                grows.
+              </p>
+              <pre><code class="language-javascript">
+                /**
+                * Sorts an array using quicksort
+                * @param {array} array
+                * @example
+                * quickSort([5, 3, 8, 4, 2]) // => [2, 3, 4, 5, 8]
+                */
+                function quickSort(array) {
+                  if (array.length &lt;= 1) {
+                    return array;
+                  }
+                  const pivot = array[array.length - 1];
+                  const left = [];
+                  const right = [];
+                  
+                  for (let i = 0; i &lt; array.length - 1; i++) {
+                    if (array[i] &lt; pivot) {
+                      left.push(array[i]);
+                    } else {
+                      right.push(array[i]);
+                    }
+                  }
+                  
+                  return [...quickSort(left), pivot, ...quickSort(right)];
+                }
+               </code></pre>
+            </div>
+          </div>
+
+          <!-- Quadratic Time O(n^2) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Quadratic Time <span class="text-primary">O(n^2)</span>
+              </h3>
+              <p>
+                This is like checking every room in the dungeon for treasure,
+                but for every room, you also have to check every room again for
+                a hidden switch. The time it takes goes up really fast as you
+                add more rooms.
+              </p>
+              <p>
+                In programming, this often happens with algorithms that have to
+                compare each element of a dataset to every other element, such
+                as in bubble sort or naive searching algorithms.
+              </p>
+              <pre><code class="language-javascript">
+                /**
+                * Performs a bubble sort on an array
+                * @param {array} array
+                * @example
+                * bubbleSort([5, 3, 8, 4, 2]) // => [2, 3, 4, 5, 8]
+                */
+                function bubbleSort(array) {
+                  let n = array.length;
+                  for (let i = 0; i &lt; n; i++) {
+                    for (let j = 0; j &lt; n - i - 1; j++) {
+                      if (array[j] > array[j + 1]) {
+                        [array[j], array[j + 1]] = [array[j + 1], array[j]];
+                      }
+                    }
+                  }
+                  return array;
+                }
+               </code></pre>
+            </div>
+          </div>
+
+          <!-- Cubic Time O(n^3) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Cubic Time <span class="text-primary">O(n^3)</span>
+              </h3>
+              <p>
+                It's like quadratic, but imagine you also had to fight a monster
+                in every room after finding the switch. It gets out of hand even
+                quicker!
+              </p>
+              <p>
+                This is less common but can occur in algorithms that involve
+                multiple layers of nested loops over the same dataset, making
+                them highly inefficient for large data sets.
+              </p>
+              <pre><code class="language-javascript">
+                /**
+                * Computes the sum of all triplets in an array
+                * @param {array} array
+                * @example
+                * sumOfAllTriplets([1, 2, 3]) // => 18 ([1+1+1, 1+1+2, ... 3+3+3])
+                */
+                function sumOfAllTriplets(array) {
+                  let sum = 0;
+                  for (let i = 0; i &lt; array.length; i++) {
+                    for (let j = 0; j &lt; array.length; j++) {
+                      for (let k = 0; k &lt; array.length; k++) {
+                        sum += array[i] + array[j] + array[k];
+                      }
+                    }
+                  }
+                  return sum;
+                }
+                </code></pre>
+            </div>
+          </div>
+
+          <!-- Exponential Time O(2^n) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Exponential Time <span class="text-primary">O(2^n)</span>
+              </h3>
+              <p>
+                This is like a puzzle that doubles in size every time you find a
+                piece. It gets so big so fast that it's not long before it's
+                unmanageable.
+              </p>
+              <p>
+                These algorithms, such as those for certain types of brute-force
+                solutions, become impractical for even relatively small datasets
+                due to the explosive growth in steps required.
+              </p>
+              <pre><code class="language-javascript">
+                /**
+                * Calculates all subsets of a given set (Power Set)
+                * @param {array} set
+                * @example
+                * powerSet(['a', 'b', 'c']) // => [[''], ['a'], ['b'], ['c'], ['a', 'b'], ['a', 'c'], ['b', 'c'], ['a', 'b', 'c']]
+                */
+                function powerSet(set) {
+                  const subsets = [[]];
+                  for (let element of set) {
+                    const last = subsets.length;
+                    for (let i = 0; i &lt; last; i++) {
+                      subsets.push(subsets[i].concat(element));
+                    }
+                  }
+                  return subsets;
+                }
+                </code></pre>
+            </div>
+          </div>
+
+          <!-- Factorial Time O(n!) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Factorial Time <span class="text-primary">O(n!)</span>
+              </h3>
+              <p>
+                Think of it like having to try out every possible party
+                combination in your game to defeat a boss. If you add just one
+                more character to your party options, the number of combinations
+                explodes massively.
+              </p>
+              <p>
+                Algorithms with factorial time complexities, such as solving the
+                traveling salesman problem through brute force, are the most
+                daunting and generally unusable for anything but the smallest
+                datasets.
+              </p>
+              <pre><code class="language-javascript">
+                /**
+                * Generates all permutations of an array
+                * @param {array} array
+                * @example
+                * permutations([1, 2, 3]) // => [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
+                */
+                function permutations(array) {
+                  if (array.length &lt;= 1) return [array];
+                  const output = [];
+                  const partialPermutations = permutations(array.slice(1));
+                  const firstElement = array[0];
+                  for (let i = 0; i &lt; partialPermutations.length; i++) {
+                    let partial = partialPermutations[i];
+                    for (let j = 0; j &lt;= partial.length; j++) {
+                      const perm = [...partial.slice(0, j), firstElement, ...partial.slice(j)];
+                      output.push(perm);
+                    }
+                  }
+                  return output;
+                }
+                </code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- Prism -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  </body>
+</html>
