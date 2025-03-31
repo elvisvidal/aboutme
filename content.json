@@ -134,7 +134,7 @@
       { "name": "VueJS", "icon": "fa-vuejs" },
       { "name": "ReactJS", "icon": "fa-react" },
       { "name": "AngularJS", "icon": "fa-angular" },
-      { "name": "Github", "icon": "fa-code-pull-request" },
+      { "name": "Github", "icon": "fa-github" },
       { "name": "HTML5", "icon": "fa-html5" },
       { "name": "CSS3", "icon": "fa-css3-alt" },
       { "name": "Sass", "icon": "fa-sass" },
