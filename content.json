@@ -12,18 +12,10 @@
   },
   "experience": [
     {
-      "title": "Full Stack Developer",
-      "company": "DFM Systems",
-      "location": "Dublin, Ireland",
-      "period": "November 2023 - Present",
-      "description": "DFM Systems combines the specialist services required in the production of Project Handover Documentation with the latest computer technology, to provide building owners and managers with a single point repository for the vast amount of information, drawings etc. needed to operate and maintain today’s modern buildings.",
-      "achievements": []
-    },
-    {
       "title": "Senior Web Developer",
       "company": "Avid Gaming",
       "location": "Dublin, Ireland",
-      "period": "April 2021 - November 2023",
+      "period": "April 2021 - Present",
       "description": "Avid Gaming is a software company dedicated to the gambling industry. My role involves contributing to creating the newest version of the bet card by adding features and developing components that improve the user experience by offering a much bigger range of bet options at once. Most recently working on the performance improvement in high demand areas of our system like our live events page.",
       "achievements": [
         {
@@ -135,7 +127,7 @@
       { "name": "VueJS", "icon": "fa-vuejs" },
       { "name": "ReactJS", "icon": "fa-react" },
       { "name": "AngularJS", "icon": "fa-angular" },
-      { "name": "Github", "icon": "fa-github" },
+      { "name": "Github", "icon": "fa-code-pull-request" },
       { "name": "HTML5", "icon": "fa-html5" },
       { "name": "CSS3", "icon": "fa-css3-alt" },
       { "name": "Sass", "icon": "fa-sass" },
