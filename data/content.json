@@ -1,0 +1,193 @@
+{
+  "about": {
+    "name": "Elvis Silva",
+    "location": "Dublin · Ireland",
+    "email": "elvis.vidal.silva@hotmail.com",
+    "description": "Web Developer with more than 10 years of experience with, not only the most popular Javascript frameworks as React, Angular and Vue, but also contributing with technologies on Backend and Mobile development. My passion for the final product taught me how to avoid over engineering and how to better work with multidisciplinary teams achieving a common goal.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/elvis-vidal/",
+      "github": "https://github.com/elvisvidal",
+      "facebook": "https://www.facebook.com/elvisvidal/"
+    }
+  },
+  "experience": [
+    {
+      "title": "Senior Web Developer",
+      "company": "Avid Gaming",
+      "location": "Dublin, Ireland",
+      "period": "April 2021 - Present",
+      "description": "Avid Gaming is a software company dedicated to the gambling industry. My role involves contributing to creating the newest version of the bet card by adding features and developing components that improve the user experience by offering a much bigger range of bet options at once. Most recently working on the performance improvement in high demand areas of our system like our live events page."
+    },
+    {
+      "title": "Software Developer",
+      "company": "BetBright",
+      "location": "Dublin, Ireland",
+      "period": "January 2018 - April 2021",
+      "description": "Now called 888 Sport, BetBright is an online gambling company that brought me new challenges, career promotions and achievements over the years. Some of my biggest contributions are:",
+      "achievements": [
+        {
+          "title": "Sports Widget",
+          "description": "A React component to help implement a list of events for any sport that could filter and organize the selections with different layouts like, sorting by category or grouping by date."
+        },
+        {
+          "title": "Event Generator",
+          "description": "An internal Typescript tool to help developers and QAs generate fake data for tests. Started saving, at least, 1h from any individual working with events, but also with the potential to save up to a couple of days worth of waiting for inplay/live events coming from providers."
+        },
+        {
+          "title": "Hackatools",
+          "description": "As the company never felt comfortable with the idea of \"stop working\" for a simple \"social gathering\", my suggestion was a hackathon event focused on the development of internal tools to bring speed for our teams. This way we would not only bring new instruments to the company but also help to integrate people from different areas and exercise how we can be more productive and pragmatic in solving problems."
+        }
+      ]
+    },
+    {
+      "title": "Backend Developer",
+      "company": "Marabraz.com",
+      "location": "Sao Paulo, Brazil",
+      "period": "March 2017 - November 2017",
+      "description": "One of the biggest furniture e-commerce in Sao Paulo, my focus was to work in a Marketplace with Magento."
+    },
+    {
+      "title": "Web/Mobile Developer",
+      "company": "3MW Digital Factory",
+      "location": "Sao Paulo, Brazil",
+      "period": "February 2016 - March 2017",
+      "description": "Responsible for development and support of digital solutions for CNI - National Confederation of Industry."
+    },
+    {
+      "title": "Web Developer",
+      "company": "Farofa Studios",
+      "location": "Sao Paulo, Brazil",
+      "period": "July 2015 - January 2016",
+      "description": "Responsible for an entire digital educational platform, developed with Lemann Foundation, for teachers to assess the progress of children that are learning reading and writing."
+    },
+    {
+      "title": "Web Developer",
+      "company": "Plus! Agência Digital",
+      "location": "Maceio, Brazil",
+      "period": "November 2014 - July 2015",
+      "description": "Responsible for Developing Institutional Websites and training clients"
+    },
+    {
+      "title": "Web Developer",
+      "company": "Rino Soluções em Tecnologia",
+      "location": "Maceio, Brazil",
+      "period": "July 2015 - January 2016",
+      "description": "A very special company for me, because I've learned a lot of enriching lessons with lovely people and challenging projects:",
+      "achievements": [
+        {
+          "title": "Turma do Som",
+          "description": "was developed to help schools cope with the low number of teachers specialized in Music and suit the need for quality materials on music teaching."
+        },
+        {
+          "title": "Tchiluanda CMS",
+          "description": "was made to help ourselves deal with simple and smaller projects. My first big project using Javascript."
+        },
+        {
+          "title": "MobiWiz",
+          "description": "is a tool that makes it easier to build corporate mobile applications. A web interface where these applications are created, structured, configured and available in an online environment."
+        }
+      ]
+    },
+    {
+      "title": "Intern",
+      "company": "Plus! Agência Digital",
+      "location": "Maceio, Brazil",
+      "period": "January 2011 - April 2011",
+      "description": "Responsible for Developing Institutional Websites and Banners"
+    },
+    {
+      "title": "Web Developer",
+      "company": "Clorus Communication + Marketing",
+      "location": "Maceio, Brazil",
+      "period": "February 2010 - January 2011",
+      "description": "Responsible for Developing Institutional Websites and our own CMS Framework"
+    }
+  ],
+  "skills": {
+    "programmingLanguages": [
+      { "name": "Javascript", "icon": "fa-js-square" },
+      { "name": "VueJS", "icon": "fa-vuejs" },
+      { "name": "ReactJS", "icon": "fa-react" },
+      { "name": "AngularJS", "icon": "fa-angular" },
+      { "name": "Github", "icon": "fa-github" },
+      { "name": "HTML5", "icon": "fa-html5" },
+      { "name": "CSS3", "icon": "fa-css3-alt" },
+      { "name": "Sass", "icon": "fa-sass" },
+      { "name": "Less", "icon": "fa-less" },
+      { "name": "Wordpress", "icon": "fa-wordpress" },
+      { "name": "Gulp", "icon": "fa-gulp" },
+      { "name": "Grunt", "icon": "fa-grunt" },
+      { "name": "NPM", "icon": "fa-npm" },
+      { "name": "PHP", "icon": "fa-php" },
+      { "name": "Python", "icon": "fa-python" },
+      { "name": "Atlassian", "icon": "fa-atlassian" }
+    ],
+    "workflow": [
+      "Mobile-First, Responsive Design",
+      "Cross Browser Testing & Debugging",
+      "Cross Functional Teams",
+      "Agile Development & Scrum"
+    ]
+  },
+  "interests": {
+    "outdoor": "Apart from being a web developer, I enjoy most of my time being outdoors. I'm a licensed USPA skydiver, PADI scuba diver, beginner skier and, every now and then, I go climbing/bouldering.",
+    "indoor": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring photographer, and I spend a good amount of my free time watching TED Talks."
+  },
+  "certifications": [
+    {
+      "name": "Web Performance with Webpack",
+      "provider": "FrontendMasters",
+      "year": "2021"
+    },
+    {
+      "name": "Web Performance Fundamentals",
+      "provider": "FrontendMasters",
+      "year": "2021"
+    },
+    {
+      "name": "JavaScript Performance",
+      "provider": "FrontendMasters",
+      "year": "2021"
+    },
+    {
+      "name": "JavaScript: The Hard Parts, v2",
+      "provider": "FrontendMasters",
+      "year": "2021"
+    },
+    {
+      "name": "The Hard Parts of Object Oriented JavaScript",
+      "provider": "FrontendMasters",
+      "year": "2021"
+    },
+    {
+      "name": "The Hard Parts of Asynchronous JavaScript",
+      "provider": "FrontendMasters",
+      "year": "2021"
+    },
+    {
+      "name": "Web Development with PHP and MySQL",
+      "provider": "Caelum",
+      "year": "2016"
+    },
+    {
+      "name": "Flash/Air for Mobile Advanced",
+      "provider": "Adobe",
+      "year": "2011"
+    },
+    { "name": "Flash/Air for Mobile", "provider": "Adobe", "year": "2011" },
+    { "name": "ActionScript 3.0 On Fire", "provider": "Adobe", "year": "2011" },
+    { "name": "Flash CS5 Advanced", "provider": "Adobe", "year": "2010" },
+    { "name": "Flash CS5", "provider": "Adobe", "year": "2010" },
+    { "name": "PHP+MySQL", "provider": "TrainnetWork - SENAI", "year": "2010" },
+    {
+      "name": "Web Design",
+      "provider": "TrainnetWork - SENAI",
+      "year": "2009"
+    },
+    {
+      "name": "Internet, Micro and Small Businesses, Entrepreneurship and Business Plan",
+      "provider": "Projeto Jovem Empreendedor - INEPRO/CEPAL",
+      "year": "2006"
+    }
+  ]
+}
