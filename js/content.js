@@ -1,7 +1,7 @@
 // Function to load and render content
 async function loadContent() {
   try {
-    const response = await fetch('/data/content.json');
+    const response = await fetch('../data/content.json');
     const data = await response.json();
 
     // Render About section
