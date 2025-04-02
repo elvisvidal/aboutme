@@ -41,6 +41,21 @@
       gtag('js', new Date());
 
       gtag('config', 'G-Q7MZRSR2PQ');
+
+      // Track clicks on navigation links
+      document.addEventListener('DOMContentLoaded', function () {
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach((link) => {
+          link.addEventListener('click', function (e) {
+            const linkText = this.textContent.trim();
+            gtag('event', 'nav_click', {
+              event_category: 'Navigation',
+              event_label: linkText,
+              value: 1,
+            });
+          });
+        });
+      });
     </script>
   </head>
   <body id="page-top">
